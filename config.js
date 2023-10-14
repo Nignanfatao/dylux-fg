@@ -3,13 +3,12 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['59172945992', 'FG98', true],
-  ['5492622271736'], 
-  ['5492622271736'] 
+  ['22651463203', 'Fatao', true],
+  ['22651463203']
 ] //Numeros de owner 
 
-global.mods = ['573125484672'] 
-global.prems = ['50489079501', '5219631769130', '573125484672']
+global.mods = ['22651463203'] 
+global.prems = ['22651463203']
 global.APIs = { // API Prefix
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz', 
@@ -25,8 +24,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'DyLux┃ᴮᴼᵀ' 
-global.author = '@fg98' 
+global.packname = 'Axt' 
+global.author = '©Fatao' 
 global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
 global.dygp = 'https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr'
 global.fgsc = 'https://github.com/FG98F/dylux-fg' 
@@ -42,7 +41,6 @@ global.error = '❌'
 global.xmoji = '🔥' 
 
 global.multiplier = 69 
-global.maxwarn = '2' // máxima advertencias
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
